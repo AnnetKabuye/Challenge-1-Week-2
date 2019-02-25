@@ -1,6 +1,6 @@
 from datetime import datetime
 
-def age_groups (x):
+def age_groups():
     x=input("Enter the year in which you were born")
     z = int(datetime.now().year)
     y = (z-(int(x)))
@@ -8,4 +8,4 @@ def age_groups (x):
     elif (18<y<36): print ("You are a youth")
     else: print ("You are an elder")
         
-age_groups(2018)
+age_groups()
